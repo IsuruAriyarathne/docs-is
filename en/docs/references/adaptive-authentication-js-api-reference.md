@@ -9,7 +9,7 @@ JavaScript.
 For more information on adaptive authentication, see [Adaptive Authentication](../../learn/adaptive-authentication)
 
 The following sections present the core API reference for the
-JavaScript-based conditional authentication functions and fields.
+JavaScript-based conditional authentication fufnctions and fields.
 
 !!! tip
     As the authentication script is designed as a loosely typed, functional
@@ -552,7 +552,7 @@ step number.
 
 -   `          request.headers[“<header_name>”]         ` : Request’s
     header value for the given header name by &lt;header\_name&gt;
--   `          request.params[“<param_name>”]         ` : Request’s
+-   `          request.params.param_name[0]         ` : Request’s
     parameter value for the given parameter name by
     &lt;parameter\_name&gt;
 -   `          request.cookies[“<cookie_name”]         ` : Request’s
